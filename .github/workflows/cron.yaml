@@ -11,3 +11,4 @@ jobs:
     steps:
       - name: 23f2000237@ds.study.iitm.ac.in
         uses: actions/checkout@v4
+      - run: git config --global user.email "23f2000237@ds.study.iitm.ac.in"
